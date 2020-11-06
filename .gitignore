@@ -4,6 +4,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*.log
+
+*.pot
+
+*.pyc
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
+
 # C extensions
 *.so
 
@@ -85,7 +94,6 @@ celerybeat-schedule
 .env.test
 .env.production
 .venv
-.vs/
 env/
 venv/
 ENV/
@@ -157,6 +165,7 @@ typings/
 
 # Output of 'npm pack'
 *.tgz
+!skeleton/*.tgz
 
 # Yarn Integrity file
 .yarn-integrity
